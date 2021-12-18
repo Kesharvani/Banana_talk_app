@@ -1,0 +1,40 @@
+:root{
+    --primary_color: #eab308;
+}
+
+
+h1{
+    background-color: var(--primary_color);
+    text-align: center;
+    padding: 25px;
+    margin:0px;
+}
+#ipt{
+    margin-left: 28%;
+    margin-top: 3rem;
+    width: 45%;
+    display: block;
+}
+#btn{
+    margin-left: 28%;
+    height: 60px;
+    padding: 20px;
+    width: 20%;
+    background-color: var(--primary_color);
+    font-weight: bold;
+    border-color: rgb(251, 255, 0);
+}
+#div_id{
+    margin-left: 28%;
+    margin-top: 15px;
+}
+#output{
+    width: 45%;
+    margin-left: 28%;
+    border: 2px solid black;
+    margin-top: 5px;
+    padding-bottom: 4rem;
+    overflow-wrap: break-word;
+}
+
+    
