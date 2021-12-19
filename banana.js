@@ -7,6 +7,12 @@ function getURL(text){
 
     return serverURL+"?"+"text="+text;
 }
+
+function errorHandler(error)
+{
+    console.log("error occured",error);
+    alert("Something wrong with the server! try again after some time")
+}
 function translateintobanana(){
 var inputText=inputselector.value;
 
@@ -15,6 +21,7 @@ fetch(getURL(inputText))
 .then(out=>{
     var transfer = out.contents.translated
     outputselector.innerText=transfer})
+    .catch(errorHandler);
 }
 
 
